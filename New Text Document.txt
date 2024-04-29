@@ -1,0 +1,14 @@
+when you mouseover on thing then you mouse over it
+
+
+myApear.addEventListener("mouseover", (event) => {
+    let myMonth = document.querySelector(".month")
+    console.log("222")
+    myMonth.style = "display: block;"
+
+// reset the color after a short delay
+setTimeout(() => {
+    myMonth.style = "display: none;"
+}, 500);
+}, false);
+
